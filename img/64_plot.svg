@@ -1,0 +1,309 @@
+ <?xml-stylesheet type="text/css" href="/css/svg.css" ?>
+ <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet"  width="100%" height="90%" id="example" viewBox="125 180 400 150">
+         <script type="text/javascript">
+         var count=0;
+         localStorage.setItem('count', count);
+            function pathClick(e) {
+                 var element=document.getElementById(e.target.id);
+                 if(element.style.fill == "red"){
+                     element.style.fill = "lightgreen";
+                     count--;
+                     localStorage.setItem('count', count);
+                 }
+                 else{
+                      element.style.fill = "red";
+                      count++;
+                      localStorage.setItem('count', count);  
+                 }                 
+            }
+        </script> 
+        <path
+          d="M153.33 202.83L190 202.16L190 181.5L150 182.16L153.33 202.83Z"
+          class="brown_path"
+          id="e3OLjm5SPS"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M150 230L188.67 228.16L188.67 202.83L150 202.83L150 230Z"
+          id="aYvRZq43v"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M150 250L190 250L188 230L150 230L150 250Z"
+          id="a9fd6Nj0Z"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M152.67 276.83L190 274.83L190 252.83L152.67 252.83L152.67 276.83Z"
+          id="aa9RYIzku"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M152 296.16L190 296.16L190 276.83L152 276.83L152 296.16Z"
+          id="ctZlnPiJ"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M150 307.5L190 310L188.67 297.5L152.67 295.5L150 307.5Z"
+          id="i1Ym2bnO9c"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M190 202.83L232.67 202.83L230 182.16L190 183.5L190 202.83Z"
+          id="aGdDbKUm9"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M188.67 230L232.67 230L232 203.5L190 202.83L188.67 230Z"
+          id="du1putAti"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M192.67 250L234 250L234 230L187.33 230L192.67 250Z"
+          id="b1pH59ssQF"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M190 276.16L234 274.83L232.67 252.16L190 252.83L190 276.16Z"
+          id="b1fBFjvPgi"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M190 295.5L234 296.16L233.33 278.16L190 280L190 295.5Z"
+          id="b1DYrCBs60"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M188.67 310L232.67 310L232.67 297.5L190 296.16L188.67 310Z"
+          id="a85BEGKSz"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M232 204.16L277.33 201.5L278 184.16L232 184.16L232 204.16Z"
+          id="c1N9CVpgqt"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M234 228.16L276.67 230L276.67 203.5L232.67 204.16L234 228.16Z"
+          id="a2ZArT8ghU"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M234 276.83L278.67 274.83L277.33 250L234 251.5L234 276.83Z"
+          id="b1VHkltsrS"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M236 251.5L276.67 251.5L277.33 230L232 230L236 251.5Z"
+          id="b1Jh7CHNED"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M233.33 296.16L280 293.5L280 277.5L233.33 280L233.33 296.16Z"
+          id="b2CCPnELx9"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M234 311.5L280 310L280 297.5L232.67 296.16L234 311.5Z"
+          id="d1DBIMAixN"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M278.67 202.83L327.33 200L327.33 182.16L277.33 182.83L278.67 202.83Z"
+          id="b3cR7qAaH"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M276.67 228.16L327.33 230L328 203.5L277.33 204.16L276.67 228.16Z"
+          id="cb5gciuy"
+          class="brown_path" 
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M278.67 250L326.67 250L326 230L278.67 230L278.67 250Z"
+          id="avTRTdrsY"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M280 276.83L326 276.83L327.33 253.5L278 252.16L280 276.83Z"
+          id="a4qna9MF4Z"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M280 296.16L324 296.16L326.67 278.16L282.67 280L280 296.16Z"
+          id="c8EnFNIpw7"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M280 310L326 310L326.67 296.16L278.67 296.83L280 310Z"
+          id="k2RpiTyIFP"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M327.33 202.83L384.67 202.83L383.33 183.5L328.67 182.83L327.33 202.83Z"
+          id="f1ydDLYpiC"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M327.33 230L384 230L384.67 204.16L326 202.83L327.33 230Z"
+          id="c1LFI7L8aw"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M327.33 250L386 250L384 230L326.67 231.5L327.33 250Z"
+          id="b851AO56Og"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M328.67 276.16L386 276.83L386 251.5L327.33 252.16L328.67 276.16Z"
+          id="a3paRpxRzW"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M327.33 294.83L386 296.16L388 277.5L330 278.16L327.33 294.83Z"
+          id="a6nJkD4z1T"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M326.67 310L388.67 310L388.67 296.16L327.33 294.16L326.67 310Z"
+          id="dS4vnGSW2"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M386.67 202.16L422.67 201.5L420 182.16L385.33 182.83L386.67 202.16Z"
+          id="b4oi9HM3w"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M384.67 230L422 227.5L420 202.83L384 204.16L384.67 230Z"
+          id="dctWiaFcJ"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M386 251.5L420 248.16L420 230L386.67 230L386 251.5Z"
+          id="aPiCjeyWI"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M386 275.5L422.67 274.83L422 251.5L385.33 253.5L386 275.5Z"
+          id="aioESSonT"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M388 296.16L422.67 294.83L420 277.5L386.67 277.5L388 296.16Z"
+          id="izqpkDIB"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M388 308.16L420 311.5L420 296.16L387.33 296.16L388 308.16Z"
+          id="d63k8ulYE"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M420 202.83L458.67 200L460 182.83L422 182.83L420 202.83Z"
+          id="h1j6pwaC6T"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M422.67 230L460 230L460 202.83L423.33 204.83L422.67 230Z"
+          id="by7cGbA2q"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M422.67 250L460 250L460 230L424 228.16L422.67 250Z"
+          id="eJkfKgD7C"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M420 278.16L460 276.16L460 252.16L420 251.5L420 278.16Z"
+          id="btnOuWj40"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M420 296.16L460 294.83L458 277.5L422.67 277.5L420 296.16Z"
+          id="b2V2htqv2x"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M422 310L460 307.5L460 296.83L423.33 295.5L422 310Z"
+          id="lgt3ksDht"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M460 202.16L498 202.16L497.33 181.5L460 181.5L460 202.16Z"
+          id="b5KbttcSs"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M460 227.5L498 230L498.67 202.83L460 202.83L460 227.5Z"
+          id="b2DzysPZ7"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M460 252.16L498.67 252.16L498 231.5L460 230L460 252.16Z"
+          id="a7oS9reHI"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M460 275.5L500 275.5L498 252.83L460 254.16L460 275.5Z"
+          id="aUiUy36j2"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M460 298.16L498.67 297.5L498.67 277.5L460 277.5L460 298.16Z"
+          id="g1kTN7BMXR"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+        <path
+          d="M460 310L498.67 310L500 296.83L458.67 296.16L460 310Z"
+          id="b6ESxsEt6"
+          class="brown_path"
+          onclick="pathClick(event)"
+        ></path>
+     
+      </svg>

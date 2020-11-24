@@ -1,0 +1,9 @@
+.brown_path {
+  fill: lightgreen;
+  stroke-width: 1;
+  stroke: black;
+}
+
+.brown_path:hover {
+  fill: red;
+}
